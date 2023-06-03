@@ -2,7 +2,7 @@
 document.cookie="tanya=17; max-age=3600 ";
 let a = document.cookie;
 
-let b = document.querySelector('h1').innerHTML=a;
+let b = document.querySelector('h1').innerText=a;
 
 // function CookiesDelete() {
 // 	var cookies = document.cookie.split(";");
